@@ -20,7 +20,7 @@ unsigned short int expressionsMatter (unsigned short int a , unsigned short int 
 
 
 //// other solutions
-/*
+
 unsigned short expressionsMatter(unsigned short a, unsigned short b, unsigned short c) {
   return std::max({a + b + c, a * (b + c), (a + b) * c, a * b * c});
-}*/
+}
