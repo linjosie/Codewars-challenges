@@ -12,3 +12,18 @@ unsigned int strCount(std::string word, char letter){
 
 ////other solutions
 
+#include <string>
+
+unsigned int strCount(std::string word, char letter){
+  return count(word.begin(), word.end(), letter);
+}
+
+//////
+
+#include <string>
+
+unsigned int strCount(std::string word, char letter){
+  unsigned int occ = 0;
+  for ( char &x: word) { if (x == letter) occ++; };
+  return occ;
+}
