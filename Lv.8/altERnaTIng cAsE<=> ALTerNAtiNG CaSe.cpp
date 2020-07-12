@@ -3,7 +3,7 @@
 string to_alternating_case(const string& str)
 {
   int n = str.length();
-  string ans;
+  string ans; //just assign ans = str here, no need then go directly to for loop 
   char char_array[n+1];
   strcpy(char_array, str.c_str());
   for (int i=0 ; i<n; i++){
