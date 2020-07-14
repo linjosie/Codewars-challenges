@@ -23,15 +23,4 @@ bool is_uppercase(const string &s)
     return s == answer;
 }
 
-//////
 
-
-#include <string>
-
-bool is_uppercase(const std::string &s) {
-  for(char c : s)
-  {
-    if(!isupper(c) && isalpha(c))return false;
-  }
-  return true;
-}
