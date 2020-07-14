@@ -23,4 +23,3 @@ bool is_uppercase(const string &s)
     return s == answer;
 }
 
-
