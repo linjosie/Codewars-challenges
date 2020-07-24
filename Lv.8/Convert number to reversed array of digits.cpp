@@ -32,3 +32,14 @@ std::vector<int> digitize(unsigned long long n)
   for(;n>0;digits.push_back(n%10),n/=10);
   return digits;
 }
+////
+
+std::vector<int> digitize(unsigned long n) 
+{        
+    std::vector<int> rod;
+    do {
+        rod.push_back(n % 10);
+    }
+    while (n /= 10);
+    return rod;
+}
